@@ -5,8 +5,13 @@ class TheSimpsonsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('AppBar Title'),
+        elevation: 3.0,
+        backgroundColor: Colors.indigo,
+      ),
+      body: const Center(
         child: Text('TheSimpsonsScreen'),
       ),
     );
