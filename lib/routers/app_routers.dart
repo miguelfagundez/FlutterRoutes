@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_router/routers/route_models.dart';
-import 'package:flutter_router/screens/screens.dart';
+import 'package:flutter_router/routers/routers.dart';
 
 class AppRoutes {
   // Initial screen

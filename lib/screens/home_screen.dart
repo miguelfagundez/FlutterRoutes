@@ -1,17 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_router/routers/app_routes.dart';
+import 'package:flutter_router/routers/app_routers.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
-  final series_list = const [
-    "Home",
-    "Legends",
-    "Marvel",
-    "Justice League",
-    "The Simpsons",
-    "Star Wars"
-  ];
   @override
   Widget build(BuildContext context) {
     final routeOptions = AppRoutes.menuRoutes;
